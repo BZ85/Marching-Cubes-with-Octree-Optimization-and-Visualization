@@ -1,0 +1,2 @@
+C:\Geometry Research Project\MarchingCubes_Project_Code\hw1\Bin\Release\MarchingCubesResearch.exe
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\Bin\Release\MarchingCubesResearch.exe

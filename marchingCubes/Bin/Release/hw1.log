@@ -1,0 +1,27 @@
+﻿  marchingCubes.cpp
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(48,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'marchingCubes.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(49,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'marchingCubes.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(50,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'marchingCubes.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(422,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(422,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(422,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(424,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(424,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(424,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(607,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(646,21): warning C4018: '<': signed/unsigned mismatch
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(667,21): warning C4018: '<': signed/unsigned mismatch
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(795,21): warning C4018: '<': signed/unsigned mismatch
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(810,21): warning C4018: '<': signed/unsigned mismatch
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  jpeg.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  Finished generating code
+  hw1.vcxproj -> C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\Bin\Release\MarchingCubesResearch.exe

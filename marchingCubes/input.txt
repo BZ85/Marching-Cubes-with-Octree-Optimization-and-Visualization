@@ -1,0 +1,3 @@
+15 15 15
+./SDF/15/partialCylinder.raw
+./OBJ/15/sur.obj

@@ -1,0 +1,3 @@
+C:\CSCI420\assign1_coreOpenGL_starterCode-v2\assign1_coreOpenGL_starterCode\hw1\Bin\Debug\hw1.exe
+C:\Geometry Research Project\MarchingCubes_Project_Code\hw1\Bin\Debug\MarchingCubesResearch.exe
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\Bin\Debug\MarchingCubesResearch.exe

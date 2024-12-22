@@ -1,0 +1,70 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\\Bin\Debug\) contains files shared from another project (hw1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  marchingCubes.cpp
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(48,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'marchingCubes.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(49,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'marchingCubes.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(50,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'marchingCubes.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(423,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(423,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(423,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(425,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(425,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(425,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(532,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(533,76): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(610,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(653,21): warning C4018: '<': signed/unsigned mismatch
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(674,21): warning C4018: '<': signed/unsigned mismatch
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(802,21): warning C4018: '<': signed/unsigned mismatch
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\marchingCubes.cpp(817,21): warning C4018: '<': signed/unsigned mismatch
+  mcFunctions.cpp
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(48,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'mcFunctions.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(49,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'mcFunctions.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(50,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'mcFunctions.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(25,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(26,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(27,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(231,77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(232,72): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(235,82): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(254,23): warning C4018: '<': signed/unsigned mismatch
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(292,23): warning C4018: '<': signed/unsigned mismatch
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(296,23): warning C4018: '<': signed/unsigned mismatch
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\mcFunctions.cpp(326,23): warning C4018: '<': signed/unsigned mismatch
+  octree.cpp
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(48,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(49,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\vertex.h(50,50): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\octree.cpp(99,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\octree.cpp(100,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\octree.cpp(102,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\octree.cpp(103,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\octree.cpp(105,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\octree.cpp(106,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\octree.cpp(330,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\octree.cpp(331,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\octree.cpp(334,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  jpeg.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+  hw1.vcxproj -> C:\Geometry Research Project\MarchingCubes_Project_Code\marchingCubes\Bin\Debug\MarchingCubesResearch.exe
