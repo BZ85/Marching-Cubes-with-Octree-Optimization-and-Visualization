@@ -17,7 +17,7 @@ The main source code can be divided as follow </br>
 Original Marching Cubes: mcFunctions.cpp, mcFunction.h</br>
 Octree Marching Cubes: octree.cpp (defining functions for octree), octree.h, octreeNode.cpp (defining data structure of octree node), octreeNode.h</br>
 OpenGL rendering program (main function, calling two marching cubes function, outputs the obj file and render the surfaces): marchingCubes.cpp</br>
-Vertex Structure: vertex.h (included by both origial and octree marching cubes)
+Vertex Structure: vertex.h (included by both origial and octree marching cubes) </br>
 Referenced Marching Cubes Triangle Table: triangleTable.h </br>
 Libraries files are all in the externals and openGLHelper directory, and openGLHelper library is from USC CSCI 420 course</br>
 
