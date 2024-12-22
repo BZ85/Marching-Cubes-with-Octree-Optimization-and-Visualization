@@ -88,6 +88,8 @@ In my program, the settings are as follow: </br>
  <source src="./pictures/mcDemo.mp4" type="video/mp4" >
 Your browser does not support the video tag.
  </video>
+
+ <a href="https://drive.google.com/file/d/1ZZxRLnuaotycCGelg_rLMBDJbxFv2jiJ/view" table = "_blank"> Video link </a>
 </br>
 </br>
 </br>
