@@ -80,7 +80,7 @@ In my program, the settings are as follow: </br>
 
 #### Partial Cylinder with only wireframe (15x15x15 grids resolution):
 
-<img src="./pictures/partCylinderWireframe.png" alt="alt text" width="70%" height="70%"/> 
+<img src="./pictures/partCylinderWireFrame.png" alt="alt text" width="70%" height="70%"/> 
 </br>
 
 #### Video Demo:
