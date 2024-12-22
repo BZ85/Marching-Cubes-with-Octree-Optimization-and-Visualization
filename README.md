@@ -104,7 +104,7 @@ This chart compares the runtime of two algorithm under 64x64x64 grids resolution
 <img src="./pictures/MarchingCubesChart.png" alt="alt text" width="70%" height="70%"/> </br>
 
 ### Interesting Detail
-When calling the octree marching cubes, the maximum depth of the octree is important. The maximum depth depends on the grid size. If the size is NxNxN, then the maximum depth should be ceiling(logN), so that even a voxel can be divided as a octree node. If the maximum depth is too small, then there will be some artifacts like cracks appearing on the output surface, as the following torus(64x64x64) example. From the wire frame shown, we can find that the space is not subdivided enough, and thereby cracks appear on the torus. </br>
+When calling the octree marching cubes, the maximum depth of the octree is important. The maximum depth depends on the grid size. If the size is NxNxN, then the maximum depth should be ceiling(logN), so that even a voxel can be divided as a octree node. If the maximum depth is too small, then there will be some artifacts like cracks appearing on the output surface, as the following torus(64x64x64) example. From the wire frame shown below, and comparing with the torus in "Surfaces Result Demonstration" section, we can find that the space is not subdivided enough, and thereby cracks appear on the torus. </br>
 </br>
 </br>
  <img src="./pictures/torusWithCrack.png" alt="alt text" width="70%" height="70%"/> </br>
