@@ -59,7 +59,7 @@ In my program, the settings are as follow: </br>
 Your browser does not support the video tag.
  </video>
 
- <a href="https://drive.google.com/file/d/1ZZxRLnuaotycCGelg_rLMBDJbxFv2jiJ/view" table = "_blank"> Video Link </a>
+ <a href="https://drive.google.com/file/d/1ZZxRLnuaotycCGelg_rLMBDJbxFv2jiJ/view" target = "_blank"> Video Link </a>
 
 #### Partial Cylinder (15x15x15 grids resolution):
 
