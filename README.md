@@ -53,6 +53,14 @@ In my program, the settings are as follow: </br>
 
 #### The black wireframes visualize how the space is subdivided by the octree </br>
 
+#### Video Demo:
+<video width=70% height=70% muted autoplay loop>
+ <source src="./pictures/mcDemo.mp4" type="video/mp4" >
+Your browser does not support the video tag.
+ </video>
+
+ <a href="https://drive.google.com/file/d/1ZZxRLnuaotycCGelg_rLMBDJbxFv2jiJ/view" table = "_blank"> Video Link </a>
+
 #### Partial Cylinder (15x15x15 grids resolution):
 
 <img src="./pictures/partialCylinder15.png" alt="alt text" width="70%" height="70%"/>
@@ -83,13 +91,6 @@ In my program, the settings are as follow: </br>
 <img src="./pictures/partCylinderWireFrame.png" alt="alt text" width="70%" height="70%"/> 
 </br>
 
-#### Video Demo:
-<video width=70% height=70% muted autoplay loop>
- <source src="./pictures/mcDemo.mp4" type="video/mp4" >
-Your browser does not support the video tag.
- </video>
-
- <a href="https://drive.google.com/file/d/1ZZxRLnuaotycCGelg_rLMBDJbxFv2jiJ/view" table = "_blank"> Video link </a>
 </br>
 </br>
 </br>
