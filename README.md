@@ -63,32 +63,32 @@ Your browser does not support the video tag.
 
 #### Partial Cylinder (15x15x15 grids resolution):
 
-<img src="./pictures/partialCylinder15.png" alt="alt text" width="70%" height="70%"/>
+<img src="./pictures/partialCylinder15.png" alt="alt text" width="100%" height="100%"/>
 </br>
 
 #### Torus (15x15x15 grids resolution):
 
-<img src="./pictures/torus15.png" alt="alt text" width="70%" height="70%"/> 
+<img src="./pictures/torus15.png" alt="alt text" width="100%" height="100%"/> 
 </br>
 
 #### Partial Cylinder (64x64x64 grids resolution):
 
-<img src="./pictures/partialCylinder64.png" alt="alt text" width="70%" height="70%"/> 
+<img src="./pictures/partialCylinder64.png" alt="alt text" width="100%" height="100%"/> 
 </br>
 
 #### Torus (64x64x64 grids resolution):
 
-<img src="./pictures/torus64.png" alt="alt text" width="70%" height="70%"/> 
+<img src="./pictures/torus64.png" alt="alt text" width="100%" height="100%"/> 
 </br>
 
 #### Partial Sphere (64x64x64 grids resolution):
 
-<img src="./pictures/partialSphere64.png" alt="alt text" width="70%" height="70%"/> 
+<img src="./pictures/partialSphere64.png" alt="alt text" width="100%" height="100%"/> 
 </br>
 
 #### Partial Cylinder with only wireframe (15x15x15 grids resolution):
 
-<img src="./pictures/partCylinderWireFrame.png" alt="alt text" width="70%" height="70%"/> 
+<img src="./pictures/partCylinderWireFrame.png" alt="alt text" width="100%" height="100%"/> 
 </br>
 
 </br>
@@ -101,13 +101,13 @@ Your browser does not support the video tag.
 
 This chart compares the runtime of two algorithm under 64x64x64 grids resolution. From the chart, we can find that the octree marching cubes runs much faster than original marching cubes. The speedup varies from 1.2 times to 10 times, based on different kinds of geometry. If the geomerty only occupies a small part of the space like the partial sphere shown above, then the speedup for octree is significant. Meanwhile, the octree also behaves better in grids with higher resolution.
 
-<img src="./pictures/MarchingCubesChart.png" alt="alt text" width="70%" height="70%"/> </br>
+<img src="./pictures/MarchingCubesChart.png" alt="alt text" width="100%" height="100%"/> </br>
 
 ### Interesting Detail
 When calling the octree marching cubes, the maximum depth of the octree is important. The maximum depth depends on the grid size. If the size is NxNxN, then the maximum depth should be ceiling(logN), so that even a voxel can be divided as a octree node. If the maximum depth is too small, then there will be some artifacts like cracks appearing on the output surface, as the following torus(64x64x64) example. From the wire frame shown below, and comparing with the torus in "Surfaces Result Demonstration" section, we can find that the space is not subdivided enough, and thereby cracks appear on the torus. </br>
 </br>
 </br>
- <img src="./pictures/torusWithCrack.png" alt="alt text" width="70%" height="70%"/> </br>
+ <img src="./pictures/torusWithCrack.png" alt="alt text" width="100%" height="100%"/> </br>
 
 ### How to run code
 My project uses Visual Studio 2022. </br>
@@ -115,10 +115,10 @@ The input.txt file contains three lines of input parameters. </br>
 The first line: the length, width and height of the grids size (defining the resolution of the grids). Those three parameters should be the same to ensure the grids is a cube. There are three kinds of resolution used in my program, which are 15x15x15, 32x32x32 and 64x64x64 </br>
 The second line: The path of input SDF file. There is "SDF" directory under the project folder. There are three sub directories under SDF directory, "15", "32", "64", which contains the SDF raw file with different resolutions. The input SDF file should be the same resolution with the grid size input in the first line.</br>
 The third line: The path of output obj file. This path can be anywhere you want the output obj file to be save, and doesn't have to contain existing file, because the program will create a new file. </br>  
-<img src="./pictures/inputFile.png" alt="alt text" width="40%" height="40%"/> 
+<img src="./pictures/inputFile.png" alt="alt text" width="50%" height="50%"/> 
 </br>
 </br>
-NOTICE: There are two parts in "marchingCubes.cpp" for dealing with SDF raw file, from line 538 to line 595. Part A is to create a new SDF file into the input file name (.raw), then use this newly-createad SDF values to generate iso surfaces. Part B is reading the existing SDF file from the input file name (.raw), and then use these SDF values to generate surfaces. We should only choose one of two parts to uncomment and run. The default part is part B (reading the existing SDF file), but you can also comment part B and uncomment part A to define your own SDF file. Details can be viewed in the code with comments.</br>
+NOTICE: There are two parts in "marchingCubes.cpp" for dealing with SDF raw file, from line 538 to line 595. Part A is creating a new SDF file into the input file name (.raw), then using this newly-createad SDF values to generate iso surfaces. Part B is reading the existing SDF file from the input file name (.raw), and then using these SDF values to generate surfaces. We should choose only one of two parts to uncomment and run. The default part is part B (reading the existing SDF file), but you can also comment part B and uncomment part A to define your own SDF file. Details can be viewed in the code with comments.</br>
 
 ### Key Operations for OpenGL Visualization
 There are two modes, mode 1 outputs the surface produced by original marching cubes (with grids points), mode 2 outputs the surface produced by octree marching cubes (with wireframes). Default mode is mode 2. </br>
